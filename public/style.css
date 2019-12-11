@@ -1,0 +1,41 @@
+/****** Main Styling ******/
+
+@import url("https://fonts.googleapis.com/css?family=Sulphur+Point:400,700&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	background: url(https://wallpapercave.com/wp/FfuqprF.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #f4f4f4;
+	height: 100vh;
+	font-family: "Sulphur Point", sans-serif;
+	font-weight: 400;
+	font-size: 62.5%;
+	line-height: 1.7;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	text-align: center;
+}
+.container {
+	margin-top: 3rem;
+}
+h2,
+h3 {
+	font-size: 3rem;
+}
+p {
+	font-size: 2.5rem;
+}
+code {
+	font-size: 2rem;
+	background-color: rgba(250, 250, 250, 0.4);
+}
